@@ -1,0 +1,14 @@
+{
+  "name": "AutoBrowse: Auto tab switching on an interval",
+  "description": "Automatically tabs between a specified list of tabs.",
+  "version": "1.0",
+  "permissions": ["activeTab", "notifications"],
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.htm"
+  }
+}
